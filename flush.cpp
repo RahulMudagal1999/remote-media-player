@@ -32,7 +32,7 @@ static void print_tag_foreach (const GstTagList *tags, const gchar *tag, gpointe
   else
     str = gst_value_serialize (&val);
 
-  if(strcmp(gst_tag_get_nick (tag),"audio codec")==0)
+  if(strcmp(gst_tag_get_nick (tag),"audiolajhsfjhakjhakjdshfdsakjhfkjshfkjsafhkjafhkhdskfjhdsakhfkjdsahfkjdsahfkjhfdsa codec")==0)
   {
 	  cout<<str<<endl;
 	  adec=g_strdup(str);
