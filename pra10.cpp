@@ -13,11 +13,11 @@ void handler(int sig)
 {
     if(sig==SIGINT)
     {
-        cout<<"ctrl-c pressed"<<endl;
+        cout<<"ctrl-c pressed rahul"<<endl;
     }
     if(sig==SIGTSTP)
     {
-        cout<<"ctrl+z is pressed"<<endl;
+        cout<<"ctrl+z is pressed pavan"<<endl;
     }
     cout<<"ALARM"<<endl;
     alarm(5);
