@@ -23,7 +23,7 @@ int main()
     string s="rhaul";
     int fo;
     int x=25;
-    vector<string> vect={"rhaul","asd","adsasd"};
+    vector<string> vect={"rhaulasdasdasdasd","asd","adsasd"};
     fo=open("f1",O_CREAT|O_RDONLY,0777);
     if(fo==-1)
     {
